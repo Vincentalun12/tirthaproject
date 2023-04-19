@@ -11,7 +11,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     @vite('resources/css/app.css')
   </head>
-  <body class="bg-gradient-to-r from-red-200 via-slate-100 to-white">
+  <body class="bg-gradient-to-r from-white via-slate-100 to-white">
     <!--Navigation bar-->
     <header name="#navbarr" id="#navbarr" class="bg-white md:bg-transparent fixed w-full h-16 shadow-md md:shadow-none transition duration-300 z-50 md:h-20">
       <nav class="fixed w-full z-50 md:px-16 py-4 mx-0 md:mx-auto">
