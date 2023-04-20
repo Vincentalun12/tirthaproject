@@ -76,7 +76,7 @@
           </div>
           <div data-aos="zoom-in" data-aos-delay="250">
             <div class="max-w-2xl mx-auto overflow-hidden md:max-w-2xl md:mt-10">
-              <img src="{{asset('image/mesincuci.png')}}" class="h-full w-full object-cover md:h-full md:w-full drop-shadow-md md:drop-shadow-xl mx-auto md:mx-auto" alt="Mesin cuci">
+              <img src="{{asset('image/mesincuci.png')}}" class="h-full w-full object-cover md:h-full md:w-full drop-shadow-md md:drop-shadow-xl mx-auto md:mx-auto" draggable="false" alt="Mesin cuci">
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@
           </div>
           <div class="max-w-2xl mx-auto overflow-hidden md:max-w-2xl md:mt-10 xl:order-2 order-1">
             <div data-aos="fade-up" data-aos-delay="200">
-              <img src="{{asset('image/omganteng.png')}}" class="h-full w-full object-cover md:h-full md:w-full drop-shadow-md md:drop-shadow-xl mx-auto md:mx-auto" alt="Mesin cuci">
+              <img src="{{asset('image/omganteng.png')}}" class="h-full w-full object-cover md:h-full md:w-full drop-shadow-md md:drop-shadow-xl mx-auto md:mx-auto" draggable="false" alt="Mesin cuci">
             </div>
           </div>
         </div>
@@ -144,19 +144,19 @@
             <p class="text-center mx-0 md:mx-12">Kami dapat membuktikan bahwa laundry kami unggul dari laundry yang lain. Memberikan anda pengalaman imersif dengan kualitas laundry yang anda belum pernah rasakan sebelumnya!</p>
           </div>
           <div class="mt-12 lg:mb-0 mx-12 md:mx-1 xl:mx-12 md:mt-10 xl:mb-10 border-2 border-birutext rounded-3xl py-5 px-7 md:py-0 md:px-8 md:pt-10 pb-16 md:pb-20 xl:pb-32" data-aos="fade-up" data-aos-delay="200">
-            <img src="{{asset('image/mobil.png')}}" class="mx-auto mb-3">
+            <img src="{{asset('image/mobil.png')}}" class="mx-auto mb-3" draggable="false">
             <p class="font-bold font-quicksand text-2xl text-center text-birutext">Pengiriman Cepat</p>
             <br>
             <p class="text-center mx-2">Pengiriman yang cepat dan tidak akan melorot sesuai hari dan waktu yang telah ditetapkan. Tidak akan lebih 24 jam.</p>
           </div>
           <div class="mt-12 lg:mb-0 mx-12 md:mx-1 xl:mx-12 md:mt-10 xl:mb-10 border-2 border-birutext rounded-3xl py-5 px-7 md:py-0 md:px-8 md:pt-10 pb-16 md:pb-20 xl:pb-32" data-aos="fade-up" data-aos-delay="400">
-            <img src="{{asset('image/mesinvek.png')}}" class="mx-auto mb-3">
+            <img src="{{asset('image/mesinvek.png')}}" class="mx-auto mb-3" draggable="false">
             <p class="font-bold font-quicksand text-2xl text-center text-birutext">Pengerjaan Instan</p>
             <br>
             <p class="text-center mx-2">Pesanan anda masuk, langsung kami kerjakan.* Kami tidak akan menunda pesanan anda hingga lewat dari 24 jam.</p>
           </div>
           <div class="mt-12 lg:mb-0 mx-12 md:mx-1 xl:mx-12 md:mt-10 xl:mb-10 border-2 border-birutext rounded-3xl py-5 px-7 md:py-0 md:px-8 md:pt-10 pb-16 md:pb-20 xl:pb-32" data-aos="fade-up" data-aos-delay="600">
-            <img src="{{asset('image/uang.png')}}" class="mx-auto mb-3">
+            <img src="{{asset('image/uang.png')}}" class="mx-auto mb-3" draggable="false">
             <p class="font-bold font-quicksand text-2xl text-center text-birutext">Harga Kompetitif</p>
             <br>
             <p class="text-center mx-2">Harga yang sangat terjangkau dan bersahabat dibandingkan dengan laundry tempat lain dengan teknologi kekinian dan modern.</p>
