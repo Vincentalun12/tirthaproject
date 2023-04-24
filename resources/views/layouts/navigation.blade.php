@@ -1,10 +1,10 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100 shadow-md">
+<nav x-data="{ open: false }" class="bg-white border-b border-gray-100 shadow-md fixed w-full">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-full mx-auto px-4 md:px-24">
+    <div class="max-w-full mx-auto px-4 md:px-24 py-2">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center">
+                <div class="shrink-0 flex items-center px-2">
                     <a href="{{ route('dashboard') }}">
                         <x-logo-tirtha class="block h-9 w-auto fill-current text-gray-800" />
                     </a>
