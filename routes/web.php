@@ -22,6 +22,14 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('dashboard/order', function () {
+    return view('order');
+})->middleware(['auth', 'verified'])->name('order');
+
+Route::get('dashboard/tracking', function () {
+    return view('tracking');
+})->middleware(['auth', 'verified'])->name('tracking');
+
 Route::get('/admindashboard', function () {
     return view('admindashboard');
 })->middleware(['auth', 'verified'])->name('admindashboard')->middleware('admin');
