@@ -8,14 +8,17 @@
             </div>
         </div>
     </div>-->
-    <div class="py-10 pt-24">
-        <div class="grid grid-rows-1 gap-1 max-w-7xl mx-auto p-1">
-          <div class="col-span-1 row-span-1 border rounded-full bg-slate-300 p-3">
+    <div class="px-6 py-1 md:px-14 pt-24">
+      <div class="container mx-auto max-w-7xl">
+        <div class="grid grid-cols-1">
+          <div class="col-span-1 row-span-1 border rounded-full bg-gray-200 p-3">
             <button class="text-white bg-birubut hover:bg-black focus:ring-4  focus:ring-slate-100 font-bold py-2 px-7 rounded-full">
             Info
             </button>
           </div>
         </div>
+      </div>
+    </div>
         <div class="px-6 py-8 md:px-14">
           <div class="container mx-auto max-w-7xl">
             <div class="grid lg:grid-cols-2 gap-12">
@@ -34,9 +37,9 @@
                             </div>
                         </div>
                         <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-                            <button type="button" class="w-3 h-3 rounded-full bg-black hover:bg-birubut" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                            <button type="button" class="w-3 h-3 rounded-full bg-black hover:bg-birubut" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                            <button type="button" class="w-3 h-3 rounded-full bg-black hover:bg-birubut" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
                         </div>
                     </div> 
                 </div>

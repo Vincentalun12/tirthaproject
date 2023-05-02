@@ -9,13 +9,22 @@
                         <x-logo-tirtha class="block h-9 w-auto fill-current text-gray-800" />
                     </a>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+
+                @if(Auth()->user()->is_admin == '0')
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex item md:px-0 lg:px-32">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('order')" :active="request()->routeIs('order')">
+                        {{ __('Order') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('profile.edit')" :active="request()->routeIs('profile.edit')">
+                        {{ __('Tracking') }}
+                    </x-nav-link>
                 </div>
-            </div>
 
+            @endif
+        </div>
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6">
                 <x-dropdown align="right" width="48">
