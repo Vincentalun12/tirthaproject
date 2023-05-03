@@ -48,17 +48,21 @@
                 <div class="border-4 rounded-3xl bg-slate-100 border-birubut p-7 lg:bg-[url('/public/image/cart1.png')]">
                   <h1 class="text-5xl font-poppins text-left font-black">Order</h1>
                   <p class="text-left font-poppins pt-3 sm:pr-32">Order jasa laundry dari kami untuk memudahkan pekerjaan anda</p>
+                  <a href="{{ route('order') }}">
                   <button class="text-white bg-birubut hover:bg-black focus:ring-4  focus:ring-slate-100 font-bold py-2 px-12 mt-3 rounded-full">
                   Order
                   </button>
+                </a>
                 </div>
                 <div class="border-4 rounded-3xl bg-slate-100 border-birubut p-7 my-8 md:my-10 lg:bg-[url('/public/image/delivery1.png')]">
                   <h1 class="text-5xl font-poppins text-left font-black">Tracking</h1>
                   <p class="text-left font-poppins pt-3 sm:pr-48">Lacak pesanan anda disini dengan mudah dan nyaman.
                   </p>
-                  <button class="text-white bg-birubut hover:bg-black focus:ring-4  focus:ring-slate-100 font-bold py-2 px-10 mt-3 rounded-full">
+                  <a href="{{ route('tracking') }}">
+                  <button class="text-white bg-birubut hover:bg-black focus:ring-4  focus:ring-slate-100 font-bold py-2 px-12 mt-3 rounded-full">
                   Tracking
                   </button>
+                </a>
                 </div>
               </div>
             </div>
