@@ -126,8 +126,8 @@
                     <span>Total</span>
                     <span>Rp 4.400</span>
                   </div>
-                  <button class="bg-birubut font-semibold hover:bg-black py-3 text-sm text-white uppercase w-full">                 
-                    Selanjutnya
+                  <button class="bg-birubut font-semibold hover:bg-black py-3 rounded-xl text-sm text-white uppercase w-full">                 
+                    Selanjutnya 
                 </button>
                 </div>
               </div>
