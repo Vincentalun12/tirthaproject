@@ -1,8 +1,8 @@
 <x-app-layout>
     <div class="px-6 py-1 md:px-24 pt-20">
         <div class="container mx-auto mt-10">
-            <div class="flex flex-col lg:flex-row shadow-xl my-10">
-              <div class="w-full lg:w-3/4 bg-white px-10 py-10">
+            <div class="flex flex-col lg:flex-row shadow-xl my-10 rounded-xl">
+              <div class="w-full lg:w-3/4 bg-white px-10 py-10 rounded-tr-xl sm:rounded-tr-none rounded-bl-none sm:rounded-tl-xl sm:rounded-bl-xl">
                 <div class="flex justify-between border-b pb-8">
                     <ol class="items-center w-full space-y-4 sm:flex sm:space-x-4 lg:space-x-8 sm:space-y-0">
                         <li class="flex items-center text-birubut space-x-2.5">
@@ -107,7 +107,7 @@
                 </div>
             </div>
         </div>
-              <div class="w-full lg:w-1/4 px-8 py-10 bg-neutral-100">
+              <div class="w-full lg:w-1/4 px-8 py-10 bg-neutral-100 rounded-bl-xl sm:rounded-bl-none  sm:rounded-tr-xl sm:rounded-br-xl"">
                 <h1 class="font-semibold text-2xl border-b pb-8">Rincian pemesanan</h1>
                 <div class="flex justify-between mt-8 mb-3">
                   <span class="font-semibold text-sm uppercase">Sub total</span>

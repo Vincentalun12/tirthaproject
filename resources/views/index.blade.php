@@ -112,7 +112,9 @@
                 Dibandingkan dengan laundry lain, Laundry Tirtha mempertimbangkan beberapa faktor seperti jangkauan, kecepatan pelayanan, kualitas, dan juga harga yang sesuai dengan anggaran. Namun, harga yang lebih tinggi tidak selalu menjamin kualitas pelayanan yang lebih baik, dan disini kami memberikan pelayanan prima dengan harga yang sangat transparan dan ramah di kantong anda. Namun, Harga laundry satuan bisa bervariasi tergantung pada jenis pakaian.
               </p>
               <br>
+              <a href="{{ route('login') }}">
               <button class="bg-birubut hover:bg-black text-white rounded-full py-2 px-7 mt-5 font-quicksand font-bold text-xl">Order Sekarang</button> 
+              </a>
             </div>
           </div>
           <div data-aos="fade-up" data-aos-delay="200">
@@ -123,7 +125,9 @@
                 Syarat dan ketentuan berlaku.
               </p>
               <br>
+              <a href="{{ route('login') }}">
               <button class="bg-birubut hover:bg-black text-white rounded-full py-2 px-16 mt-5 font-quicksand font-bold text-xl">Gabung</button> 
+              </a>
             </div>
           </div>
           <div class="max-w-2xl mx-auto overflow-hidden md:max-w-2xl md:mt-10 xl:order-2 order-1">
