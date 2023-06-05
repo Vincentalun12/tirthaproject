@@ -27,13 +27,13 @@
                     <div id="default-carousel" class="relative w-full" data-carousel="slide">
                         <div class="relative overflow-hidden rounded-lg h-[300px] md:h-[485px]">
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="{{asset('image/hanyacoba.png')}}" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                <img src="{{asset('image/banner1.png')}}" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             </div>
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="{{asset('image/hanyacoba.png')}}" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                <img src="{{asset('image/banner2.png')}}" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             </div>
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="{{asset('image/hanyacoba.png')}}" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                                <img src="{{asset('image/banner3.png')}}" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             </div>
                         </div>
                         <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
