@@ -35,12 +35,12 @@ git clone https://github.com/Vincentalun12/tirthaproject.git
 #### 4. Jika selesai buka aplikasi Code Editor lalu Open Project pada folder Tirtha Laundry
 Di folder www maupun htdocs, buka folder Tirtha Project, dan pastikan komponen coding ada didalam folder tersebut. Jika folder Tirtha Project dibuka dan isinya adalah folder lagi, maka buka folder tersebut dan pindahkan ke directory sebelumnya.
 
-**Contoh Directory yang benar:**
+**✅ Contoh Directory yang BENAR:** 
 ```http
 /xampp/htdocs/tirthaproject/
 ```
 
-**Contoh Directory yang salah:**
+**❌ Contoh Directory yang SALAH:**
 ```http
 /xampp/htdocs/tirthaproject/tirthaproject-main/
 ```
