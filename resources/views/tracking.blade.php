@@ -6,39 +6,18 @@
               <div class="flex justify-center border-b pb-8">
                  <span class="text-lg font-poppins font-bold">Riwayat Pelacakan</span>
               </div>
-              <div class="flex justify-around items-center hover:bg-gray-100 px-0 sm:px-10 py-5 border my-4 shadow-md">
-                 <div class="flex w-full sm:w-2/5">
-                    <div class="flex flex-col justify-around ml-4 flex-grow">
-                       <span class="font-bold text-sm">No. pelacakan: 1274 1212</span>
-                       <span class="font-semibold rounded-lg w-16 text-black text-xs text-center bg-green-400 mt-2">5/3/2023                    
-                       </span>
-                    </div>
-                 </div>
-                 <a href="#" class="text-center w-1/5 font-semibold text-sm hover:text-birubut">Detail</a>
-                 <span class="text-center w-1/5 font-semibold text-sm text-green-600">Berhasil</span>
-              </div>
-              <div class="flex justify-around items-center hover:bg-gray-100 px-0 sm:px-10 py-5 border my-4 shadow-md">
-                 <div class="flex w-full sm:w-2/5">
-                    <div class="flex flex-col justify-around ml-4 flex-grow">
-                       <span class="font-bold text-sm">No. pelacakan: 1274 1212</span>
-                       <span class="font-semibold rounded-lg w-16 text-black text-xs text-center bg-blue-400 mt-2">4/3/2023                    
-                       </span>
-                    </div>
-                 </div>
-                 <a href="#" class="text-center w-1/5 font-semibold text-sm hover:text-birubut">Detail</a>
-                 <span class="text-center w-1/5 font-semibold text-sm text-blue-600">Proses</span>
-              </div>
-              <div class="flex justify-around items-center hover:bg-gray-100 px-0 sm:px-10 py-5 border my-4 shadow-md">
-                 <div class="flex w-full sm:w-2/5">
-                    <div class="flex flex-col justify-around ml-4 flex-grow">
-                       <span class="font-bold text-sm">No. pelacakan: 1274 1212</span>
-                       <span class="font-semibold rounded-lg w-16 text-black text-xs text-center bg-red-400 mt-2">1/3/2023                    
-                       </span>
-                    </div>
-                 </div>
-                 <a href="#" class="text-center w-1/5 font-semibold text-sm hover:text-birubut">Detail</a>
-                 <span class="text-center w-1/5 font-semibold text-sm text-red-600">Batal</span>
-              </div>
+              <x-tracking.berhasil>
+                <x-slot name="no_pelacakan">1274 1212</x-slot>
+                <x-slot name="tanggal">4/3/2023</x-slot>
+             </x-tracking.berhasil>
+              <x-tracking.proses>
+                 <x-slot name="no_pelacakan">1274 1212</x-slot>
+                 <x-slot name="tanggal">4/3/2023</x-slot>
+              </x-tracking.proses>
+              <x-tracking.batal>
+                <x-slot name="no_pelacakan">1274 1212</x-slot>
+                <x-slot name="tanggal">4/3/2023</x-slot>
+             </x-tracking.batal>
               <a href="" class="flex justify-center pt-4">
               <span class="text-sm font-poppins font-semi text-gray-400 hover:text-black">Load more</span>
               </a>
