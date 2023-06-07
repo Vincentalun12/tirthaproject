@@ -2,20 +2,20 @@
     <h1 class="font-semibold text-2xl border-b pb-8">Rincian pemesanan</h1>
     <div class="flex justify-between mt-8 mb-3">
        <span class="font-semibold text-sm uppercase">Sub total</span>
-       <span class="font-semibold text-sm">Rp 4.000</span>
+       <span class="font-semibold text-sm">{{$subtotal}}</span>
     </div>
     <div class="flex justify-between mt-8 mb-3">
        <span class="font-semibold text-sm uppercase">PPN 10%</span>
-       <span class="font-semibold text-sm">Rp 400</span>
+       <span class="font-semibold text-sm">{{$pajak}}</span>
     </div>
     <div class="flex justify-between mt-8 mb-3">
        <span class="font-semibold text-sm uppercase">Diskon</span>
-       <span class="font-semibold text-sm">Rp 0</span>
+       <span class="font-semibold text-sm">{{$diskon}}</span>
     </div>
     <div class="border-t mt-8">
        <div class="flex font-semibold justify-between py-6 text-sm uppercase">
           <span>Total</span>
-          <span>Rp 4.400</span>
+          <span>{{$alltotal}}</span>
        </div>
        <button class="bg-birubut font-semibold hover:bg-black py-3 rounded-xl text-sm text-white uppercase w-full">                 
        Selanjutnya 

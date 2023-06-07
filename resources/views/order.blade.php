@@ -30,7 +30,10 @@
                </div>
             </div>
             <x-order.bill>
-               
+               <x-slot name="subtotal">Rp 4.000</x-slot>
+               <x-slot name="pajak">Rp 4.00</x-slot>
+               <x-slot name="diskon">Rp 0</x-slot>
+               <x-slot name="alltotal">Rp 4.400</x-slot>
             </x-order.bill>
             </div>
          </div>
