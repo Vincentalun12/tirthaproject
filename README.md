@@ -1,66 +1,99 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 👘 Aseprite Laundry
 
-## About Laravel
+Project website laundry berbasis online yang responsif dan minimalis. Dibuat dengan PHP dan Javascript.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+__Project ini dibuat untuk UAS Sistem Informasi Semester 2 TA. 2022 UIB - 2SIPA__
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![App Screenshot](https://media.discordapp.net/attachments/1036585440473526313/1116035982278537366/image.png?width=1656&height=671)
+# 🔩 Komponen Yang Dibutuhkan
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Git - Agar dapar pull project ini [(https://git-scm.com/downloads)](https://git-scm.com/downloads) - **atau** dapat menggunakan Github Desktop
+- Localhost Program seperti [XAMPP](https://www.apachefriends.org/download.html), [Laragon](https://laragon.org/download/index.html), dll. (Direkomendasikan menggunakan [Laragon](https://laragon.org/download/index.html) karena kami menggunakannya) 
+- Node.js [(https://nodejs.org/en)](https://nodejs.org/en)
+- Composer [(https://getcomposer.org/download/)](https://getcomposer.org/download/)
+- Code Editor (Direkomendasikan: [Visual Studio Code](https://code.visualstudio.com/download))
 
-## Learning Laravel
+Harap hiraukan jika sudah menginstall komponen yang dibutuhkan, Namun jika sudah terinstal, akan memerlukan instalasi lebih lanjut di langkah selanjutnya.
+# 🪛 Petunjuk Instalasi
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+#### - PASTIKAN SUDAH TERINSTALL Database MySQL (phpmyadmin) & Apache UNTUK MENJALANKAN PROJEK SELFHOST PHP -
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+#### 1. Jalankan Aplikasi Selfhost (XAMPP, Laragon, dll.) dan sudah menjalankan MySQL & Apache.
+Pastikan Port untuk Database yaitu `3306` dengan host `127.0.0.1` dan Port untuk Apache yaitu `80`
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+#### 2. Pergi ke lokasi directory Localhost Program, lalu ke folder yang dimana menyimpan source code yang akan di selfhost
+Untuk Pengguna Laragon, biasanya ada di direktori `/laragon/www/`
 
-## Laravel Sponsors
+Untuk Pengguna XAMPP, biasanya ada di direktori `/xampp/htdocs/`
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+#### 3. Ketika sudah didalam folder tersebut, jalankan Git, dan lakukan command seperti dibawah ini:
+```http
+git clone https://github.com/Vincentalun12/tirthaproject.git
+```
 
-### Premium Partners
+#### 4. Jika selesai buka aplikasi Code Editor lalu Open Project pada folder Tirtha Laundry
+Di folder www maupun htdocs, buka folder Tirtha Project, dan pastikan komponen coding ada didalam folder tersebut. Jika folder Tirtha Project dibuka dan isinya adalah folder lagi, maka buka folder tersebut dan pindahkan ke directory sebelumnya.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+**Contoh Directory yang benar:**
+```http
+/xampp/htdocs/tirthaproject/
+```
 
-## Contributing
+**Contoh Directory yang salah:**
+```http
+/xampp/htdocs/tirthaproject/tirthaproject-main/
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+#### 5. Buka Terminal dalam Text Editor tersebut, dan disini kami MEWAJIBKAN untuk membuat 2 terminal.
+Lalu, lakukan command dibawah ini pada **Terminal 1** untuk menginstall composer yang telah terdownload:
+```http
+composer install
+```
 
-## Code of Conduct
+#### Jalankan Javascript agar UI Layout dapat tersusun dengan baik dengan command dibawah ini:
+Lakukan ini pada **Terminal 1** setelah melakukan instalasi composer.
+```http
+npm run dev
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+#### 6. Jika sudah selesai, jalankan beberapa command composeragar PHP dapat mencocokan dengan directory sekarang, lakukan secara BERURUTAN.
+Lakukan command dibawah ini pada **Terminal 2**, Ini alasan kami untuk menggunakan 2 terminal.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Command 1:
+```http
+php artisan key:generate
+```
+- Command 2:
+```http
+php artisan migrate
+```
+- Command 3:
+```http
+php artisan serve
+```
 
-## License
+#### 7. Begitu Command 3 dijalankan, akan langsung memberikan URL untuk melihat hasil dari selfhostnya. Biasanya, website akan terhosting otomatis pada website localhost dibawah ini:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```http
+http://127.0.0.1:8000
+```
+
+#### 8. Selesai! User dapat menjelajah keseluruhan website dan juga registrasi akun yang akan bekerja sebagaimana mestinya.
+
+**Sudah kami uji di host baru dan berjalan dengan baik!**
+## 🪲 Penyebab Kesalahan Yang Biasanya Terjadi
+
+- Host dan Port database di `.env` yang tidak sesuai.
+- Salah peletakan directory project. (Wajib didalam `www` atau `htdocs` atau sejenisnya agar dapat langsung dijalankan)
+- Tidak menjalankan console terminal sesuai instruksi.
+- Apache / MySQL yang tidak jalan.
+- Komponen program yang digunakan merupakan versi lama.
+- Jika tidak dapat registrasi, mungkin API Key Email sudah *expired* (Seharusnya tidak)
+##  🍻 Kel. Aseprite
+
+- [@Vincentalun12](https://github.com/Vincentalun12) - Vincent [Frontend & Backend Programmer]
+- [@jupitvq](https://github.com/jupitvq) - Jupiter - [UI/UX Designer & Ideas]
+- Halimah
+- Leona
