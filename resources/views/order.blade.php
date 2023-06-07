@@ -19,7 +19,6 @@
                   <x-slot name="harga">Rp 2.000</x-slot>
                   <x-slot name="total">Rp 2.000</x-slot>
                </x-order.items>
-               
                <div class="flex justify-start items-center sm:px-10 py-3 pl-4">
                   <div class="flex w-full">
                      <div class="w-20">
