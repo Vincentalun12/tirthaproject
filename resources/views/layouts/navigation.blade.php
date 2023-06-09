@@ -84,6 +84,14 @@
                 <x-responsive-nav-link :href="route('profile.edit')">
                     {{ __('Profile') }}
                 </x-responsive-nav-link>
+                
+                <x-responsive-nav-link :href="route('order')">
+                    {{ __('Order') }}
+                </x-responsive-nav-link>
+
+                <x-responsive-nav-link :href="route('tracking')">
+                    {{ __('Tracking') }}
+                </x-responsive-nav-link>
 
                 <!-- Authentication -->
                 <form method="POST" action="{{ route('logout') }}">
