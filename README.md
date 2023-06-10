@@ -4,6 +4,7 @@
 Project website laundry berbasis online yang responsif dan minimalis. Dibuat dengan PHP dan Javascript.
 
 __Project ini dibuat untuk UAS Sistem Informasi Semester 2 TA. 2022 UIB - 2SIPA__
+
 __ORDER & TRACK FUNCTION BELUM BEKERJA SEBAGAIMANA MESTINYA__
 
 ![App Screenshot](https://media.discordapp.net/attachments/1036585440473526313/1116035982278537366/image.png?width=1656&height=671)
